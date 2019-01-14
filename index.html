@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Clock Widget</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="pomodoro">
+    <div class="flip_clock"></div>
+
+    <div class="settings">
+      <div class="session_settings">
+        <div>Session</div>
+        <div class="counter">
+            <button class="btn session_decrement"><i class="fas fa-minus-circle"></i></button>        
+            <div class="session"></div>
+            <button class="btn session_increment"><i class="fas fa-plus-circle"></i></button>
+        </div>
+      </div>
+      <div class="break_settings">
+        <div>Break</div>
+        <div class="counter">
+            <button class="btn break_decrement"><i class="fas fa-minus-circle"></i></button>
+            <div class="break"></div>
+            <button class="btn break_increment"><i class="fas fa-plus-circle"></i></button>        
+        </div>
+      </div>
+    </div>
+
+    <div class="control_buttons">
+      <button class="btn control start"><i class="fas fa-play-circle"></i></button>
+      <button class="btn control stop"><i class="fas fa-stop-circle"></i></button>
+      <button class="btn control reset"><i class="fas fa-sync"></i></button>
+    </div>   
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

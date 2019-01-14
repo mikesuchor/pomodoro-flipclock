@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  background: url("https://images.pexels.com/photos/1323712/pexels-photo-1323712.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pomodoro {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 25px;
+  margin: 10px auto;
+}
+
+.flip_clock {
+  flex: 0 0 100%;
+}
+
+.settings {
+  display: flex;
+  text-align: center;
+  width: 220px;
+  margin: 10px 12px 12px;
+}
+
+.break_settings {
+  margin-left: 30px;
+}
+
+.session, .break {
+  background: #333;
+  color: #ccc;
+  border-radius: 6px;
+  font-size: 26px;
+  padding: 5px;
+}
+
+.flip-clock-wrapper {
+  padding-top: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.counter {
+  margin-top: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.stop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.session, .break {
+  margin: 0 8px;
+}
+
+.control_buttons {
+  display: flex;
+  margin: auto;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.control {
+  margin: 0 3px;
+}
+
+.fas {
+  font-size: 30px;
+  color: #333;
+}
+
+.fa-sync {
+  font-size: 26px;
+}
